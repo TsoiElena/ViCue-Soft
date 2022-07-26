@@ -1,0 +1,27 @@
+.container {
+  background-color: #b580ff;
+  width: 100%;
+  min-height: 80px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.head h1 {
+  display: inline-block;
+  margin: 15px 0 0 130px;
+  font-weight: bolder;
+  color: black;
+}
+
+.head input {
+  display: inline-block;
+  margin-top: 18px;
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 30px;
+  font-size: large;
+  font-weight: bold;
+}

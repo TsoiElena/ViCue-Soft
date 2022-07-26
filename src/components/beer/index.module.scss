@@ -1,0 +1,33 @@
+.container {
+  margin: 30px 400px;
+  display: flex;
+}
+
+.container img {
+  max-width: 300px;
+  max-height: 500px;
+}
+
+.main {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.main p {
+  font-size: larger;
+}
