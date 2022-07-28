@@ -13,7 +13,7 @@ function App() {
         <>
             <Header str={searchLine} setStr={setSearchLine} />
             <Routes>
-                <Route path="/ViCue-Soft" element={<MainPage
+                <Route path="/" element={<MainPage
                     searchParam={searchLine.replace(' ', '_')}
                 />} />
                 <Route path="/beer/:beerId" element={<BeerPage />} />
