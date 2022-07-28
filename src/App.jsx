@@ -19,7 +19,7 @@ function App() {
                 <Route path="/beer/:beerId" element={<BeerPage />} />
             </Routes>
         </>
-    );
+    )
 }
 
 export default App
