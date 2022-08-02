@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ViCue-Soft/static/css/main.5c3e3a4b.css",
+    "main.css": "/ViCue-Soft/static/css/main.15b1e682.css",
     "main.js": "/ViCue-Soft/static/js/main.4d7bcca7.js",
     "index.html": "/ViCue-Soft/index.html",
-    "main.5c3e3a4b.css.map": "/ViCue-Soft/static/css/main.5c3e3a4b.css.map",
+    "main.15b1e682.css.map": "/ViCue-Soft/static/css/main.15b1e682.css.map",
     "main.4d7bcca7.js.map": "/ViCue-Soft/static/js/main.4d7bcca7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c3e3a4b.css",
+    "static/css/main.15b1e682.css",
     "static/js/main.4d7bcca7.js"
   ]
 }
