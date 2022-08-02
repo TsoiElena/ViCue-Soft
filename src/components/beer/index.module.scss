@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .container img {
@@ -33,12 +34,13 @@
 }
 
 .main p {
+  max-width: 900px;
   font-size: larger;
 }
 
 @media (max-width: 768px) {
   .container {
-    flex-flow: wrap-reverse ;
+    flex-flow: wrap ;
   }
 
   .container img {
