@@ -1,6 +1,6 @@
 .container {
-  margin: 30px 400px;
   display: flex;
+  justify-content: center;
 }
 
 .container img {
@@ -20,6 +20,10 @@
   flex-direction: column;
 }
 
+.info div {
+  display: flex;
+}
+
 .tags {
   display: inline-block;
   width: 150px;
@@ -30,4 +34,27 @@
 
 .main p {
   font-size: larger;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-flow: wrap-reverse ;
+  }
+
+  .container img {
+    display: inline-block;
+    max-width: 250px;
+    max-height: 400px;
+  }
+
+  .main div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main p {
+    display: inline-block;
+    max-width: 250px;
+  }
+
 }
