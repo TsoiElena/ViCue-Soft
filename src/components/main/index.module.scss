@@ -9,9 +9,10 @@
 .pagination {
   margin-bottom: 100px;
   position: relative;
-  left: 45%;
   display: flex;
   width: 15em;
+  margin-left: auto;
+  margin-right: auto;
   height: 5em;
   border-radius: 3em;
   box-sizing: border-box;
@@ -38,5 +39,4 @@
   font-weight: bold;
   margin: 0.1em;
 }
-
 

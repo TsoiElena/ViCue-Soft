@@ -3,6 +3,12 @@
   width: 100%;
   min-height: 80px;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.head {
+  display: flex;
   align-items: center;
 }
 
@@ -24,4 +30,41 @@
   border-radius: 30px;
   font-size: large;
   font-weight: bold;
+}
+
+
+@media (min-width: 551px) and (max-width: 800px) {
+  .head h1 {
+    position: absolute;
+    left: 20%;
+    top: 25px;
+    margin: 0;
+  }
+
+  .head input {
+    margin-left: 50px;
+    width: 250px;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    min-height: 110px;
+  }
+
+  .head {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head h1 {
+    margin: 0;
+  }
+
+  .head input {
+    position: relative;
+    min-width: 200px;
+    margin: 0;
+    left: 0;
+  }
 }
